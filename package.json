@@ -1,7 +1,7 @@
 {
-  "name": "doctor_connector",
+  "name": "Doctor Application",
   "version": "1.0.0",
-  "description": "By Jeevan Jyoti Dash",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,7 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "JeevanTheDev",
+  "author": "ezhil",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
