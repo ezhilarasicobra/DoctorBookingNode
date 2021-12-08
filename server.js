@@ -1,4 +1,5 @@
 const express = require("express");
+const cors=require('cors')
 const mongoose = require("mongoose");
 const doctors = require('./routes/api/doctors');
 const authsDoctor = require('./routes/api/authDoctor');
@@ -8,6 +9,7 @@ const profile = require('./routes/api/profile');
 const appointment = require('./routes/api/appointment');
 
 const app = express();
+app.use(cors());
 
 // DB config
 const db = require('./config/keys').mongoURI;
